@@ -5,3 +5,9 @@ alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/download
 
 # Quickly serve the current directory as HTTP
 alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
+
+# Some basics
+alias 1aday="brew update && brew upgrade && brew cleanup"
+
+# switch directory
+alias mymw="cd ~/code/bravomike87/mymidwife"
